@@ -1,0 +1,21 @@
+import java.util.*;
+public class testMat {
+
+	public static void main(String[] args) {
+
+		
+		     
+		      Matrix m = new Matrix(1000,1000, 9.0);
+		      
+		      
+		      
+		   
+		      
+		      m.mul(m).display();
+		     
+		    }
+
+
+		}
+
+
