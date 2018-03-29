@@ -94,7 +94,7 @@ class Quadtree {
   }
   // (for showing points)
   for (Point p:points){
-    strokeWeight(4);
+    strokeWeight(2);
     stroke(255);
     point((float)p.x ,(float) p.y);
   } 
