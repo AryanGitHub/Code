@@ -82,12 +82,12 @@ class Quadtree {
    this.southeast.show();
    this.southwest.show();
   }
-  /* (for showing points)
+  // (for showing points)
   for (Point p:points){
     strokeWeight(4);
-    point(p.x , p.y);
+    point((float)p.x , (float)p.y);
   }
-  */
+  
     
   }
     

@@ -19,7 +19,7 @@ background(0);
 
 public void draw (){
   if(mousePressed){
-    for (int i  = 0 ; i < 5 ; i++){
+    for (int i  = 0 ; i < 1 ; i++){
        qtree.insert(new Point ( mouseX +random(-5,5) , mouseY+random(-5,5)));
     }
   }
