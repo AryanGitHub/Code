@@ -25,7 +25,9 @@ public void setup (){
 }
 
 public void draw (){
-  background(0);
+  background(0); //<>//
+  
+  
   qtree.show();
   
   ArrayList <Point> points = new ArrayList <Point> ();
